@@ -3,5 +3,5 @@ RewriteEngine On
 AllowOverride All
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule dbs/foo/tables/source index.php [QSA,NC,L]
+RewriteRule dbs/foo/tables/source dbs/foo/tables/source.php [QSA,NC,L]
 </IfModule>
